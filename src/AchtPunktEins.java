@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class AchtPunktEins {
-    private static String[] words = {"terminator", "banana", "computer", "cow", "rain", "water" };
+    private static String[] words = {"terminator", "banana", "computer", "cow", "rain", "water"};
     private static String word = words[(int) (Math.random() * words.length)];
     private static String star = new String(new char[word.length()]).replace("\0", "*");
     private static int count = 0;
